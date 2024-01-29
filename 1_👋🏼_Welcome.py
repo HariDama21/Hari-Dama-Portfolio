@@ -41,6 +41,8 @@ if selected=="✨ Home":
     with col1:
         st.image("dp.png", width=650)
     with col2:
+        st.empty()
+    with col3:
         def load_lottie_url(url: str):
             r = requests.get(url)
             if r.status_code != 200:
