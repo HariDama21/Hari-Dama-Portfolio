@@ -268,13 +268,13 @@ if selected=="💼 Experience":
         with col3:
             st.empty()
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
-       if selected=="Reliance JIO Telecommunication":
-           st.header("Sales Executive -  November 2019 To September 2020")
-           st.header("",divider='rainbow')
-           st.subheader("✭ Promote & sell product using solid arguments to existing and prospective customers")
-           st.subheader("✭ Develop & maintain positive business and customer relationships") 
-           st.subheader("✭ The role involves acquiring new customers for Jio telecom services, conducting sales presentations, meeting sales targets, developing strategies, building strong customer relationships, addressing customer inquiries, conducting market research, staying updated on industry trends, collaborating with internal teams, and working closely with marketing and technical teams.")
-           st.subheader("✭ The role also involves participating in training sessions to enhance product knowledge and sales skills and staying informed about Jio product and service updates.")
+    if selected=="Reliance JIO Telecommunication":
+        st.header("Sales Executive -  November 2019 To September 2020")
+        st.header("",divider='rainbow')
+        st.subheader("✭ Promote & sell product using solid arguments to existing and prospective customers")
+        st.subheader("✭ Develop & maintain positive business and customer relationships") 
+        st.subheader("✭ The role involves acquiring new customers for Jio telecom services, conducting sales presentations, meeting sales targets, developing strategies, building strong customer relationships, addressing customer inquiries, conducting market research, staying updated on industry trends, collaborating with internal teams, and working closely with marketing and technical teams.")
+        st.subheader("✭ The role also involves participating in training sessions to enhance product knowledge and sales skills and staying informed about Jio product and service updates.")
 
         st.header("",divider='rainbow')
     
@@ -296,14 +296,14 @@ if selected=="💼 Experience":
            st.empty()
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
-       if selected=="East Indian Pvt.Lmtd":
-           st.header("PCB Testing -  September 2018 To February 2019")
-           st.header("",divider='rainbow')
-           st.subheader("✭ Integrated PCB manufacturing involves designing, prototyping, testing, and mass-producing printed circuit boards. The process includes assembling electronic components and inspecting them for quality assurance.")
-           st.subheader("✭ Integrated PCB (printed circuit board) production entails a number of steps:") 
-           st.subheader("✭ When designing the circuit, printing it, etching the board, drilling holes, plating, applying the solder mask, silk screen printing, placing the components, soldering, and testing.")
+    if selected=="East Indian Pvt.Lmtd":
+        st.header("PCB Testing -  September 2018 To February 2019")
+        st.header("",divider='rainbow')
+        st.subheader("✭ Integrated PCB manufacturing involves designing, prototyping, testing, and mass-producing printed circuit boards. The process includes assembling electronic components and inspecting them for quality assurance.")
+        st.subheader("✭ Integrated PCB (printed circuit board) production entails a number of steps:") 
+        st.subheader("✭ When designing the circuit, printing it, etching the board, drilling holes, plating, applying the solder mask, silk screen printing, placing the components, soldering, and testing.")
 
-           st.header("",divider='rainbow')
+        st.header("",divider='rainbow')
 ##----------------------------------------------------------THE END ----------------------------------------------------------------------------------
 
 
