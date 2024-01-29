@@ -403,7 +403,7 @@ if selected=="🤳🏻 Photography":
         st.subheader("✭ There's a saying about opinions: opinions are like a**holes; everyone had one (no offense here 😀).")
         st.subheader(":rainbow[All images were taken with the Realme Pro]😎🤘🏻.")
 
-    st.header("",divider='rainbow')
+        st.header("",divider='rainbow')
 ##---------------------------------------------------------------------------------------------------------------------------------------------
     col1, col2, col3 = st.columns(3)
     with col1:
