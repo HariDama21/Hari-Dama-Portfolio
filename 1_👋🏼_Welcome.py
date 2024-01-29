@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-import plotly.express as px
 from streamlit_lottie import st_lottie
 
 orientation="horizontal"
@@ -57,17 +56,6 @@ st.subheader("*✨ Want to be a developer, where I can deploy new things based o
 st.subheader("*💻 In my free time, you can find me learning and implementing new  things in the real world.*")
 
 st.subheader("*💪🏻 #Java_Programmer #Python.*")
-
-st.header("",divider='rainbow')
-
-
-skills = [
-        "Java", "Python", "R", "HTML/CSS", "Salesforce Administration", "Slack", "GCP & AZURE", "Git & GitHub", "Power BI", "SQL", "Linkedin Optimization", "Adobe Express", "Figma"]
-
-st.markdown("### :rainbow[Skills Proficiency Visualization]:")
-skills_data = {"Skills": skills, "Level": [4, 3, 2, 3, 3, 3, 4, 4, 2, 2, 4, 3, 3]}
-fig = px.bar(skills_data, x="Skills", y="Level", color="Level", title=None)
-st.plotly_chart(fig, use_container_width=True)
 
 def load_lottie_url(url: str):
         r = requests.get(url)
