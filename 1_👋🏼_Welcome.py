@@ -13,6 +13,25 @@ def main():
     st.title("My Portfolio")
 st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
 st.header("",divider='rainbow')
+
+selected=option_menu(
+        menu_title=None,
+        options=["✨ Home", "💼 Experience", "👥 DevX Community", "🤳🏻 Photography"],
+        default_index=0,
+        orientation="horizontal",
+        styles={
+                "container": {"padding": "0!important", "background-color": "#BBBB"},
+                "icon": {"color": "orange", "font-size": "21px"},
+                "nav-link": {
+                    "font-size": "21px",
+                    "text-align": "center",
+                    "margin": "0px",
+                    "--hover-color": "#0009",
+                },
+                "nav-link-selected": {"background-color": "green"},
+            },
+        )
+
 col1, col2 = st.columns(2)
 with col1:
     st.image("dp.png", width=650)
