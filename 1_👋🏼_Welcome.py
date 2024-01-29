@@ -12,8 +12,6 @@ st.set_page_config(
 
 def main():
     st.title("My Portfolio")
-st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
-st.header("",divider='rainbow')
 
 selected=option_menu(
         menu_title=None,
@@ -32,6 +30,11 @@ selected=option_menu(
                 "nav-link-selected": {"background-color": "green"},
             },
         )
+
+st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
+st.header("",divider='rainbow')
+
+
 if selected=="✨ Home":
     col1, col2 = st.columns(2)
     with col1:
@@ -45,7 +48,7 @@ if selected=="✨ Home":
 
     lottie_animation_1 = "https://lottie.host/9f38b8b5-3d51-4466-9e90-e57de7c47142/46DUUW0Z0Y.json"
     lottie_anime_json = load_lottie_url(lottie_animation_1)
-    st_lottie(lottie_anime_json,  width=600, height=600, key="initial")
+    st_lottie(lottie_anime_json,  key="initial")
 
     st.title("Hari Dama")
 
@@ -76,9 +79,6 @@ if selected=="✨ Home":
     st.subheader("*💪🏻 #Java_Programmer #Python.*")
 
 
-
-
-
     def load_lottie_url(url: str):
         r = requests.get(url)
         if r.status_code != 200:
@@ -92,3 +92,4 @@ if selected=="✨ Home":
     st_lottie(lottie_anime_json2, key = "hello2", width=898)
 
 ##THE END
+st.header("",divider='rainbow')
