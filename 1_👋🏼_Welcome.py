@@ -303,10 +303,10 @@ if selected=="💼 Experience":
         st.subheader("✭ When designing the circuit, printing it, etching the board, drilling holes, plating, applying the solder mask, silk screen printing, placing the components, soldering, and testing.")
 
         def load_lottie_url(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
+            r = requests.get(url)
+            if r.status_code != 200:
+                return None
+            return r.json()
         lottie_animation_8= "https://lottie.host/d1668828-c19d-4d71-bed3-ac58de623f48/ZqP3wWnLyA.json"
         lottie_anime_json8 = load_lottie_url(lottie_animation_8)
         st_lottie(lottie_anime_json8, speed=1, width=600, height=600, key="initial")
