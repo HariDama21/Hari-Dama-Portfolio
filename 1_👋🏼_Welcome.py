@@ -108,4 +108,4 @@ if selected=="✨ Home":
 
     lottie_anime_json3 = load_lottie_url(lottie_animation_3)
 
-    st_lottie(lottie_anime_json3, key = "hello2", width=898)
+    st_lottie(lottie_anime_json3, key = "hello3", width=898)
