@@ -384,21 +384,21 @@ if selected=="🤳🏻 Photography":
 ##---------------------------------------------------------------------------------------------------------------------------------------------
     col1, col2 = st.columns(2)
     with col1:
-        st.image("5pro.jpg",width=925)
+        st.image("5pro.jpg",width=825)
     with col2:
         st.subheader("👋🏻:grey[Hello, are you curious? Why am I displaying the phone, which is expanding its lens?]")
         st.subheader(":grey[✭ If so, don't worry about it. I'm here to explain.]")
 
-    st.header("*:rainbow[i am Hari Dama, an passionate photographer. who's interested in Landscapes, Stargazing, Low Light & Macro photography realated areas.]*")
-    st.subheader("✭ Everything began with the pandemic of COVID, and everyone stayed at home due to curfews.")
-    st.subheader("✭ I have plenty of time to experiment at the moment. I discovered some photography-related stuff, such as how to edit images.")
-    st.subheader("✭ I thought this might help me take better photos. Then it went on for a long time, and I learned how to photograph from various angles and framings.")
-    st.subheader("✭ It was an incredible experience to study photography.")
-    st.subheader("✭ So, without hesitation, I continued to master the core concepts of photography, such as the exposure triangle, which includes shutter speed, aperture, and ISO.")
-    st.subheader("✭ Composition rules include the rule of thirds, frame-in-frame, rule of odds, and symmetry.")
-    st.subheader("✭ Various camera modes include auto, programme auto, shutter priority, aperture priority, and, ultimately, to manual mode.*")
-    st.subheader("✭ At that point, I discovered that every smartphone includes a manual camera mode.")
-    st.subheader("✭ I was surprised to learn that. How is this possible? Here begins the exploratory journey.")
+        st.header("*:rainbow[i am Hari Dama, an passionate photographer. who's interested in Landscapes, Stargazing, Low Light & Macro photography realated areas.]*")
+        st.subheader("✭ Everything began with the pandemic of COVID, and everyone stayed at home due to curfews.")
+        st.subheader("✭ I have plenty of time to experiment at the moment. I discovered some photography-related stuff, such as how to edit images.")
+        st.subheader("✭ I thought this might help me take better photos. Then it went on for a long time, and I learned how to photograph from various angles and framings.")
+        st.subheader("✭ It was an incredible experience to study photography.")
+        st.subheader("✭ So, without hesitation, I continued to master the core concepts of photography, such as the exposure triangle, which includes shutter speed, aperture, and ISO.")
+        st.subheader("✭ Composition rules include the rule of thirds, frame-in-frame, rule of odds, and symmetry.")
+        st.subheader("✭ Various camera modes include auto, programme auto, shutter priority, aperture priority, and, ultimately, to manual mode.*")
+        st.subheader("✭ At that point, I discovered that every smartphone includes a manual camera mode.")
+        st.subheader("✭ I was surprised to learn that. How is this possible? Here begins the exploratory journey.")
 
     st.subheader(":red[Note :]If you truly want to succeed on our trip, never consider other people's opinions.")
     st.subheader("✭ Everyone compliments your job positively. But, are they willing to pay for it? Obviously, no.")
