@@ -374,7 +374,7 @@ if selected=="👥 DevX Community":
 
     st.image("6.png", width=None)
 
-    st.header("",divider='rainbow')
+ st.header("",divider='rainbow')
 
 ##--------------------------------------------PAGE 3 END-----------------------------------------------------------------
 
