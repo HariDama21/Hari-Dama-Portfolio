@@ -400,12 +400,12 @@ if selected=="🤳🏻 Photography":
         st.subheader("✭ At that point, I discovered that every smartphone includes a manual camera mode.")
         st.subheader("✭ I was surprised to learn that. How is this possible? Here begins the exploratory journey.")
 
-    st.subheader(":red[Note :]If you truly want to succeed on our trip, never consider other people's opinions.")
-    st.subheader("✭ Everyone compliments your job positively. But, are they willing to pay for it? Obviously, no.")
-    st.subheader("✭ There's a saying about opinions: opinions are like a**holes; everyone had one (no offense here 😀).")
-    st.subheader(":rainbow[All images were taken with the Realme Pro]😎🤘🏻.")
+        st.subheader(":red[Note :]If you truly want to succeed on our trip, never consider other people's opinions.")
+        st.subheader("✭ Everyone compliments your job positively. But, are they willing to pay for it? Obviously, no.")
+        st.subheader("✭ There's a saying about opinions: opinions are like a**holes; everyone had one (no offense here 😀).")
+        st.subheader(":rainbow[All images were taken with the Realme Pro]😎🤘🏻.")
 
-    st.header("",divider='rainbow')
+        st.header("",divider='rainbow')
 ##---------------------------------------------------------------------------------------------------------------------------------------------
     col1, col2, col3 = st.columns(3)
     with col1:
