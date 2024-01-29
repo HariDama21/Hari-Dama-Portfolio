@@ -37,7 +37,7 @@ selected=option_menu(
 if selected=="✨ Home":
     st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
     st.header("",divider='rainbow')
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
     with col1:
         st.image("dp.png", width=650)
     with col2:
