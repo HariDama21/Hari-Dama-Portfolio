@@ -31,11 +31,12 @@ selected=option_menu(
             },
         )
 
-st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
-st.header("",divider='rainbow')
+
 
 
 if selected=="✨ Home":
+    st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
+    st.header("",divider='rainbow')
     col1, col2 = st.columns(2)
     with col1:
         st.image("dp.png", width=650)
