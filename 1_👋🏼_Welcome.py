@@ -278,7 +278,7 @@ if selected=="💼 Experience":
 
         st.header("",divider='rainbow')
         col1, col2, col3 = st.columns(3)
-        orientation = "center"
+        
         with col1:
             st.empty()
         with col2:
