@@ -49,7 +49,7 @@ if selected=="✨ Home":
     lottie_anime_json = load_lottie_url(lottie_animation_1)
     st_lottie(lottie_anime_json,  width=900, height=800, key="initial")
     
-    with col12:
+    with col2:
         st.image("dp.png", width=600)
 
     st.title("Hari Dama")
