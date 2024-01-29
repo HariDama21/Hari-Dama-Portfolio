@@ -277,23 +277,22 @@ if selected=="💼 Experience":
         st.subheader("✭ The role also involves participating in training sessions to enhance product knowledge and sales skills and staying informed about Jio product and service updates.")
 
         st.header("",divider='rainbow')
-    
-       col1, col2, col3 = st.columns(3)
-       orientation = "center"
-       with col1:
-           st.empty()
-       with col2:
-           st.image('jio.png', width=700)
-       with col3:
-           st.empty()
+        col1, col2, col3 = st.columns(3)
+        orientation = "center"
+        with col1:
+            st.empty()
+        with col2:
+            st.image('jio.png', width=700)
+        with col3:
+            st.empty()
 
-       col1, col2, col3 = st.columns(3)
-       with col1:
-           st.empty()
-       with col2:
-           st.markdown("***JIO Centre Manager expresses gratitude for the second-most sales in the Tirupathi region.***")
-       with col3:
-           st.empty()
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.empty()
+        with col2:
+            st.markdown("***JIO Centre Manager expresses gratitude for the second-most sales in the Tirupathi region.***")
+        with col3:
+            st.empty()
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
     if selected=="East Indian Pvt.Lmtd":
