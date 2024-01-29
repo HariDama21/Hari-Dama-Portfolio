@@ -1,5 +1,6 @@
 import requests
 import streamlit as st
+import plotly as px
 from streamlit_lottie import st_lottie
 
 orientation="horizontal"
