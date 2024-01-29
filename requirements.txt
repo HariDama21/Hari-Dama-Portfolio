@@ -1,5 +1,6 @@
+pipreqs
 requests
-streamlit as st
+streamlit
 plotly
 streamlit_lottie
 streamlit_option_menu
