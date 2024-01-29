@@ -37,6 +37,7 @@ selected=option_menu(
 if selected=="✨ Home":
     st.subheader("👋🏻:rainbow[Hola , I hope you're doing well. Welcome to my portfolio!]")
     st.header("",divider='rainbow')
+    
     col1, col2 = st.columns(2)
     with col1:
         def load_lottie_url(url: str):
@@ -47,7 +48,7 @@ if selected=="✨ Home":
 
     lottie_animation_1 = "https://lottie.host/9f38b8b5-3d51-4466-9e90-e57de7c47142/46DUUW0Z0Y.json"
     lottie_anime_json = load_lottie_url(lottie_animation_1)
-    st_lottie(lottie_anime_json,  width=400, height=400, key="initial")
+    st_lottie(lottie_anime_json,  width=550, height=550, key="initial")
     
     with col2:
         st.image("dp.png", width=600)
