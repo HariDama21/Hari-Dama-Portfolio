@@ -41,6 +41,17 @@ if selected=="✨ Home":
     col1, col2 = st.columns(2)
     with col1:
         def load_lottie_url(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+
+        lottie_animation_3 = "https://lottie.host/df2959b0-9584-425a-916d-0291077a6420/we7apIaDh3.json"
+
+        lottie_anime_json3 = load_lottie_url(lottie_animation_3)
+
+        st_lottie(lottie_anime_json3, key = "hello3", width=898)
+        def load_lottie_url(url: str):
             r = requests.get(url)
             if r.status_code != 200:
                 return None
@@ -98,14 +109,3 @@ if selected=="✨ Home":
     st.header("",divider='rainbow')
 
 
-    def load_lottie_url(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-
-    lottie_animation_3 = "https://lottie.host/df2959b0-9584-425a-916d-0291077a6420/we7apIaDh3.json"
-
-    lottie_anime_json3 = load_lottie_url(lottie_animation_3)
-
-    st_lottie(lottie_anime_json3, key = "hello3", width=898)
