@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-import plotly as px
 from streamlit_lottie import st_lottie
 
 orientation="horizontal"
@@ -58,13 +57,7 @@ st.subheader("*💻 In my free time, you can find me learning and implementing n
 
 st.subheader("*💪🏻 #Java_Programmer #Python.*")
 
-skills = [
-        "Java", "Python", "R", "HTML/CSS", "Salesforce Administration", "Slack", "GCP & AZURE", "Git & GitHub", "Power BI", "SQL", "Linkedin Optimization", "Adobe Express", "Figma"]
 
-st.markdown("### :rainbow[Skills Proficiency Visualization]:")
-skills_data = {"Skills": skills, "Level": [4, 3, 2, 3, 3, 3, 4, 4, 2, 2, 4, 3, 3]}
-fig = px.bar(skills_data, x="Skills", y="Level", color="Level", title=None)
-st.plotly_chart(fig, use_container_width=True)
 
 
 
