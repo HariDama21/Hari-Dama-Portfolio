@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
+from streamlit_option_menu import option_menu
 
 orientation="horizontal"
 st.set_page_config(
