@@ -302,6 +302,15 @@ if selected=="💼 Experience":
         st.subheader("✭ Integrated PCB (printed circuit board) production entails a number of steps:") 
         st.subheader("✭ When designing the circuit, printing it, etching the board, drilling holes, plating, applying the solder mask, silk screen printing, placing the components, soldering, and testing.")
 
+        def load_lottie_url(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+        lottie_animation_8= "https://lottie.host/d1668828-c19d-4d71-bed3-ac58de623f48/ZqP3wWnLyA.json"
+        lottie_anime_json8 = load_lottie_url(lottie_animation_8)
+        st_lottie(lottie_anime_json8, speed=1, width=600, height=600, key="initial")
+        
         st.header("",divider='rainbow')
 ##----------------------------------------------------------PAGG 2 END ----------------------------------------------------------------------------------
 
@@ -372,6 +381,15 @@ if selected=="👥 DevX Community":
 
     st.header("***🌟:rainbow[We express our gratitude to GDG Cloud Chennai, GDG Chennai, TechBound, GDSC MBU, and KARE, as well as the mentors of DevX, for providing their valuable time to guide aspirants to their dream careers and to every individual who was involved in DevX’s success.]***")
 
+    def load_lottie_url(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+        lottie_animation_7 = "https://lottie.host/72c5da03-052f-48ab-bb97-b6fa6a656629/WUSORYFsZt.json"
+        lottie_anime_json7 = load_lottie_url(lottie_animation_7)
+        st_lottie(lottie_anime_json7, speed=1, width=400, height=400, key="initial")
+        
     st.image("6.png", width=None)
 
     st.header("",divider='rainbow')
@@ -475,6 +493,14 @@ if selected=="🤳🏻 Photography":
         st.image("sky3.jpg",width=None)
 
 
+    def load_lottie_url(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+        lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
+        lottie_anime_json6 = load_lottie_url(lottie_animation_6)
+        st_lottie(lottie_anime_json6, speed=1, width=400, height=400, key="initial")
     st.header("",divider='rainbow')
 
 ##--------------------------------------------THE END-----------------------------------------------------------------
