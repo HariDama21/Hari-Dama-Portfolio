@@ -1,3 +1,5 @@
-streamlit
-ploty
-streamlit-lottie
+requests
+streamlit as st
+plotly
+streamlit_lottie
+streamlit_option_menu
