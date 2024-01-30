@@ -386,9 +386,9 @@ if selected=="👥 DevX Community":
         if r.status_code != 200:
             return None
         return r.json()
-        lottie_animation_7 = "https://lottie.host/72c5da03-052f-48ab-bb97-b6fa6a656629/WUSORYFsZt.json"
-        lottie_anime_json7 = load_lottie_url(lottie_animation_7)
-        st_lottie(lottie_anime_json7, speed=1, width=400, height=400, key="initial")
+    lottie_animation_7 = "https://lottie.host/72c5da03-052f-48ab-bb97-b6fa6a656629/WUSORYFsZt.json"
+    lottie_anime_json7 = load_lottie_url(lottie_animation_7)
+    st_lottie(lottie_anime_json7, speed=1, width=400, height=400, key="initial")
         
     st.image("6.png", width=None)
 
@@ -491,16 +491,14 @@ if selected=="🤳🏻 Photography":
         st.image("sky2.jpeg",width=None)
     with col3:
         st.image("sky3.jpg",width=None)
-
-
     def load_lottie_url(url: str):
         r = requests.get(url)
         if r.status_code != 200:
             return None
         return r.json()
-        lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
-        lottie_anime_json6 = load_lottie_url(lottie_animation_6)
-        st_lottie(lottie_anime_json6, speed=1, width=400, height=400, key="initial")
+    lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
+    lottie_anime_json6 = load_lottie_url(lottie_animation_6)
+    st_lottie(lottie_anime_json6, speed=1, width=400, height=400, key="initial")
     st.header("",divider='rainbow')
 
 ##--------------------------------------------THE END-----------------------------------------------------------------
