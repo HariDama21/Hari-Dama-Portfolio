@@ -92,7 +92,7 @@ if selected=="✨ Home":
 
     lottie_anime_json2 = load_lottie_url(lottie_animation_2)
 
-    st_lottie(lottie_anime_json2, key = "hello2", width=898)
+    st_lottie(lottie_anime_json2,  speed=1, width=00, height=550, key="hello")
 
     
     st.header("",divider='rainbow')
