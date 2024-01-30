@@ -282,7 +282,7 @@ if selected=="💼 Experience":
             r = requests.get(url)
             if r.status_code != 200:
                 return None
-                return r.json()
+            return r.json()
         lottie_animation_9 = "https://lottie.host/021ba1de-384e-495e-81ee-07b9fc706eba/zCdDJg7LEn.json"
         lottie_anime_json9 = load_lottie_url(lottie_animation_9)
         st_lottie(lottie_anime_json9, speed=1, width=00, height=550, key="initial9")
