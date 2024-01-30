@@ -277,6 +277,16 @@ if selected=="💼 Experience":
         st.subheader("✭ The role also involves participating in training sessions to enhance product knowledge and sales skills and staying informed about Jio product and service updates.")
 
         st.header("",divider='rainbow')
+
+        def load_lottie_url(url: str):
+            r = requests.get(url)
+            if r.status_code != 200:
+                return None
+                return r.json()
+        lottie_animation_9 = "https://lottie.host/021ba1de-384e-495e-81ee-07b9fc706eba/zCdDJg7LEn.json"
+        lottie_anime_json9 = load_lottie_url(lottie_animation_9)
+        st_lottie(lottie_anime_json9, speed=1, width=00, height=550, key="initial")
+        
         col1, col2, col3 = st.columns(3)
         
         with col1:
@@ -293,6 +303,7 @@ if selected=="💼 Experience":
             st.markdown("***JIO Centre Manager expresses gratitude for the second-most sales in the Tirupathi region.***")
         with col3:
             st.empty()
+
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
     if selected=="East Indian Pvt.Lmtd":
