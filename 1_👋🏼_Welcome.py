@@ -19,7 +19,7 @@ def load_lottie_url(url: str):
     if r.status_code != 200:
         return None
     return r.json()
-lottie_animation_10 = "https://lottie.host/eb9bb7e6-d8e6-4f40-bd51-956b1933d7e3/1OZihha1bV.json"
+lottie_animation_10 = "https://lottie.host/1de971a1-80b8-4fcf-842f-3ce233901bb6/z3dkyWa7GR.json"
 lottie_anime_json10 = load_lottie_url(lottie_animation_10)
 st_lottie(lottie_anime_json10, speed=1, width=00, height=600, key="initial10")
 
