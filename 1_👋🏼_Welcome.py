@@ -256,7 +256,7 @@ if selected=="💼 Experience":
             return r.json()
         lottie_animation_9 = "https://lottie.host/7aef3025-24cb-4eac-aba1-74b78fb051d7/L2dyt1HKzn.json"
         lottie_anime_json9 = load_lottie_url(lottie_animation_9)
-        st_lottie(lottie_anime_json9, speed=1, width=00, height=550, key="initial9")
+        st_lottie(lottie_anime_json9, speed=1, width=00, height=350, key="initial9")
 
         col1, col2, col3 = st.columns(3)
         orientation = "center"
