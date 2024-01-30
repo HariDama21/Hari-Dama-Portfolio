@@ -166,6 +166,8 @@ if selected=="💼 Experience":
         lottie_animation_2 = "https://lottie.host/e9f8c073-ec63-4c11-8bb5-5cb1b156f97d/kwpWmONPuI.json"
         lottie_anime_json2 = load_lottie_url(lottie_animation_2)
         st_lottie(lottie_anime_json2, speed=1, width=00, height=550, key="initial3")
+
+        st.header("",divider='rainbow')
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
     if selected=="Smartinternz":
         st.header("Salesforce Administration Intern -  May 2023 To July 2023")
@@ -211,6 +213,8 @@ if selected=="💼 Experience":
         lottie_animation_2 = "https://lottie.host/0fd5bc3a-d261-484a-ae53-a42cd479f5c8/uSW245AQwE.json"
         lottie_anime_json2 = load_lottie_url(lottie_animation_2)
         st_lottie(lottie_anime_json2, speed=1, width=00, height=550, key="initial4")
+
+        st.header("",divider='rainbow')
 
 
 ##_-----------------------------------------------------------------------------------------------------------------------------------------------------
