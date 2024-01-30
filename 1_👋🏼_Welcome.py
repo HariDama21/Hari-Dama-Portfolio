@@ -388,7 +388,7 @@ if selected=="👥 DevX Community":
         return r.json()
     lottie_animation_7 = "https://lottie.host/72c5da03-052f-48ab-bb97-b6fa6a656629/WUSORYFsZt.json"
     lottie_anime_json7 = load_lottie_url(lottie_animation_7)
-    st_lottie(lottie_anime_json7, speed=1, width=400, height=400, key="initial")
+    st_lottie(lottie_anime_json7, speed=1, width=00, height=600, key="initial")
         
     st.image("6.png", width=None)
 
@@ -498,7 +498,7 @@ if selected=="🤳🏻 Photography":
         return r.json()
     lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
     lottie_anime_json6 = load_lottie_url(lottie_animation_6)
-    st_lottie(lottie_anime_json6, speed=1, width=400, height=400, key="initial")
+    st_lottie(lottie_anime_json6, speed=1, width=550, height=550, key="initial")
     st.header("",divider='rainbow')
 
 ##--------------------------------------------THE END-----------------------------------------------------------------
