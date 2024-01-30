@@ -457,6 +457,15 @@ if selected=="🤳🏻 Photography":
     with col3:
         st.image("st3.jpg",width=None)
         st.image("st4.jpeg",width=None)
+
+    def load_lottie_url(url: str):
+        r = requests.get(url)
+        if r.status_code != 200:
+            return None
+        return r.json()
+    lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
+    lottie_anime_json6 = load_lottie_url(lottie_animation_6)
+    st_lottie(lottie_anime_json6, speed=1, width=00, height=550, key="initial")
 ##---------------------------------------------------------------------------------------------------------------------------------------------
     tab1, tab2, tab3, tab4 = st.tabs(["1️⃣", "2️⃣", "3️⃣", "4️⃣"])
     with tab1:
@@ -491,14 +500,7 @@ if selected=="🤳🏻 Photography":
         st.image("sky2.jpeg",width=None)
     with col3:
         st.image("sky3.jpg",width=None)
-    def load_lottie_url(url: str):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-    lottie_animation_6 = "https://lottie.host/464b9049-bc48-4404-b8da-5fdff2a3a1cf/rYW0dXLeKF.json"
-    lottie_anime_json6 = load_lottie_url(lottie_animation_6)
-    st_lottie(lottie_anime_json6, speed=1, width=00, height=550, key="initial")
+    
     st.header("",divider='rainbow')
 
 ##--------------------------------------------THE END-----------------------------------------------------------------
