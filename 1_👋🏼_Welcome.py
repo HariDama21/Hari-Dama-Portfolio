@@ -13,6 +13,16 @@ st.set_page_config(
 def main():
     st.title("My Portfolio")
 
+
+def load_lottie_url(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+lottie_animation_10 = "https://lottie.host/eb9bb7e6-d8e6-4f40-bd51-956b1933d7e3/1OZihha1bV.json"
+lottie_anime_json10 = load_lottie_url(lottie_animation_10)
+st_lottie(lottie_anime_json10, speed=1, width=00, height=600, key="initial10")
+
 selected=option_menu(
         menu_title=None,
         options=["✨ Home", "💼 Experience", "👥 DevX Community", "🤳🏻 Photography"],
@@ -254,7 +264,7 @@ if selected=="💼 Experience":
             if r.status_code != 200:
                 return None
             return r.json()
-        lottie_animation_9 = "https://lottie.host/021ba1de-384e-495e-81ee-07b9fc706eba/zCdDJg7LEn.json"
+        lottie_animation_9 = "https://lottie.host/7aef3025-24cb-4eac-aba1-74b78fb051d7/L2dyt1HKzn.json"
         lottie_anime_json9 = load_lottie_url(lottie_animation_9)
         st_lottie(lottie_anime_json9, speed=1, width=00, height=350, key="initial9")
 
