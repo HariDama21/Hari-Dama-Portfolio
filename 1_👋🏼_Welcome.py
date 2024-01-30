@@ -295,7 +295,7 @@ if selected=="💼 Experience":
         st.subheader("✭ The role involves acquiring new customers for Jio telecom services, conducting sales presentations, meeting sales targets, developing strategies, building strong customer relationships, addressing customer inquiries, conducting market research, staying updated on industry trends, collaborating with internal teams, and working closely with marketing and technical teams.")
         st.subheader("✭ The role also involves participating in training sessions to enhance product knowledge and sales skills and staying informed about Jio product and service updates.")
 
-        st.header("",divider='rainbow')
+        
         
         col1, col2, col3 = st.columns(3)
         
@@ -313,6 +313,8 @@ if selected=="💼 Experience":
             st.markdown("***JIO Centre Manager expresses gratitude for the second-most sales in the Tirupathi region.***")
         with col3:
             st.empty()
+        
+        st.header("",divider='rainbow')
 
 
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
