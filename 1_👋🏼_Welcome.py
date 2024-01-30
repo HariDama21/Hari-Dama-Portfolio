@@ -108,7 +108,7 @@ if selected=="💼 Experience":
 
     lottie_anime_json = load_lottie_url(lottie_animation_1)
 
-    st_lottie(lottie_anime_json, key = "hello", width=800)
+    st_lottie(lottie_anime_json, speed=1, width=00, height=550, key="initial")
 ##---------------------------------------------------------------------------------------------------------------------------------------------
     selected=option_menu(
         menu_title=None,
@@ -165,7 +165,7 @@ if selected=="💼 Experience":
             return r.json()
         lottie_animation_2 = "https://lottie.host/e9f8c073-ec63-4c11-8bb5-5cb1b156f97d/kwpWmONPuI.json"
         lottie_anime_json2 = load_lottie_url(lottie_animation_2)
-        st_lottie(lottie_anime_json2, key = "hello2", width=1000)
+        st_lottie(lottie_anime_json2, speed=1, width=00, height=550, key="initial")
 ##------------------------------------------------------------------------------------------------------------------------------------------------------
     if selected=="Smartinternz":
         st.header("Salesforce Administration Intern -  May 2023 To July 2023")
@@ -210,7 +210,7 @@ if selected=="💼 Experience":
             return r.json()
         lottie_animation_2 = "https://lottie.host/0fd5bc3a-d261-484a-ae53-a42cd479f5c8/uSW245AQwE.json"
         lottie_anime_json2 = load_lottie_url(lottie_animation_2)
-        st_lottie(lottie_anime_json2, key = "hello2", width=1000)
+        st_lottie(lottie_anime_json2, speed=1, width=00, height=550, key="initial")
 
 
 ##_-----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -309,7 +309,7 @@ if selected=="💼 Experience":
             return r.json()
         lottie_animation_8= "https://lottie.host/d1668828-c19d-4d71-bed3-ac58de623f48/ZqP3wWnLyA.json"
         lottie_anime_json8 = load_lottie_url(lottie_animation_8)
-        st_lottie(lottie_anime_json8, speed=1, width=600, height=600, key="initial")
+        st_lottie(lottie_anime_json8, speed=1, width=00, height=550, key="initial")
         
         st.header("",divider='rainbow')
 ##----------------------------------------------------------PAGG 2 END ----------------------------------------------------------------------------------
@@ -388,7 +388,7 @@ if selected=="👥 DevX Community":
         return r.json()
     lottie_animation_7 = "https://lottie.host/72c5da03-052f-48ab-bb97-b6fa6a656629/WUSORYFsZt.json"
     lottie_anime_json7 = load_lottie_url(lottie_animation_7)
-    st_lottie(lottie_anime_json7, speed=1, width=00, height=600, key="initial")
+    st_lottie(lottie_anime_json7, speed=1, width=00, height=595, key="initial")
         
     st.image("6.png", width=None)
 
